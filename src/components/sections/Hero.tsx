@@ -41,9 +41,21 @@ export const Hero = () => {
                   Get In Touch
                 </Button>
                 
-                <Button variant="outline" size="lg" className="group">
-                  <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                  Download CV
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="group"
+                  asChild
+                >
+                  <a 
+                    href="/cv/Ameen_Rahman_CV.pdf" 
+                    download="Ameen_Rahman_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                    Download CV
+                  </a>
                 </Button>
               </div>
               
