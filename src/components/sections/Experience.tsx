@@ -5,43 +5,43 @@ import { CalendarDays, MapPin } from "lucide-react"
 export const Experience = () => {
   const experiences = [
     {
-      title: "Senior Software Engineer",
-      company: "Tech Innovation Corp",
-      location: "San Francisco, CA",
+      title: "Senior Data Scientist",
+      company: "TechFlow Analytics",
+      location: "Chicago, IL",
       period: "2022 - Present",
-      description: "Leading full-stack development of enterprise applications serving 100K+ users. Architected microservices infrastructure reducing system latency by 40%.",
+      description: "Leading data science initiatives for predictive analytics and machine learning solutions. Developing models that process 50M+ data points daily for enterprise clients.",
       achievements: [
-        "Designed and implemented scalable microservices architecture",
-        "Led team of 5 developers in agile development practices",
-        "Reduced deployment time by 60% through CI/CD optimization"
+        "Built recommendation system increasing user engagement by 45%",
+        "Led team of 4 data scientists in MLOps best practices",
+        "Reduced model training time by 70% through optimization techniques"
       ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "PostgreSQL"]
+      technologies: ["Python", "TensorFlow", "PyTorch", "AWS", "Docker"]
     },
     {
-      title: "Data Scientist & Backend Engineer",
-      company: "DataDriven Solutions",
-      location: "New York, NY",
+      title: "Data Scientist",
+      company: "DataInsights Corp",
+      location: "Chicago, IL",
       period: "2020 - 2022",
-      description: "Developed machine learning models for predictive analytics and built robust data pipelines processing millions of records daily.",
+      description: "Developed machine learning models for customer segmentation and fraud detection. Built automated ML pipelines processing financial data for risk assessment.",
       achievements: [
-        "Built ML models improving prediction accuracy by 35%",
-        "Designed ETL pipelines processing 10M+ records daily",
-        "Implemented real-time analytics dashboard for stakeholders"
+        "Created fraud detection model with 98% accuracy reducing losses by $2M annually",
+        "Designed customer segmentation algorithm improving marketing ROI by 40%",
+        "Implemented real-time monitoring system for model performance"
       ],
-      technologies: ["Python", "TensorFlow", "Apache Spark", "Kafka", "GCP"]
+      technologies: ["Python", "Scikit-learn", "SQL", "Tableau", "Apache Spark"]
     },
     {
-      title: "Full-Stack Developer",
-      company: "StartupHub Inc",
-      location: "Austin, TX",
+      title: "Junior Data Analyst",
+      company: "Analytics Plus",
+      location: "Chicago, IL",
       period: "2019 - 2020",
-      description: "Built responsive web applications and RESTful APIs. Collaborated with design teams to create user-centric interfaces.",
+      description: "Performed statistical analysis and data visualization for business intelligence reports. Collaborated with stakeholders to identify data-driven insights.",
       achievements: [
-        "Developed 3 major client applications from concept to production",
-        "Improved application performance by 50% through optimization",
-        "Mentored 2 junior developers in best practices"
+        "Automated reporting processes reducing manual work by 60%",
+        "Created interactive dashboards serving 50+ business users",
+        "Conducted A/B testing analysis for product optimization"
       ],
-      technologies: ["JavaScript", "Vue.js", "Express.js", "MongoDB", "Firebase"]
+      technologies: ["Python", "R", "SQL", "Power BI", "Excel"]
     }
   ]
 

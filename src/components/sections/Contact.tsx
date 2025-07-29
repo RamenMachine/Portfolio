@@ -9,19 +9,19 @@ export const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.developer@email.com",
-      href: "mailto:john.developer@email.com"
+      value: "emailameenrahman@gmail.com",
+      href: "mailto:emailameenrahman@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "(630) 621-2551",
+      href: "tel:+16306212551"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Chicago, IL",
       href: "#"
     }
   ]

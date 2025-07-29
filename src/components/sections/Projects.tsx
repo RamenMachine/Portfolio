@@ -6,33 +6,33 @@ import { ExternalLink, Github } from "lucide-react"
 export const Projects = () => {
   const projects = [
     {
-      title: "AI-Powered Analytics Dashboard",
-      description: "Real-time business intelligence platform with machine learning insights and predictive analytics. Built with React, Python, and TensorFlow.",
-      tags: ["React", "Python", "TensorFlow", "PostgreSQL", "Docker"],
+      title: "Customer Churn Prediction Model",
+      description: "Advanced machine learning model predicting customer behavior with 94% accuracy. Implemented ensemble methods and feature engineering to identify at-risk customers.",
+      tags: ["Python", "XGBoost", "Pandas", "Scikit-learn", "Flask"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
       github: "https://github.com",
       demo: "https://demo.com"
     },
     {
-      title: "Distributed Microservices Architecture",
-      description: "Scalable e-commerce backend with microservices, event-driven architecture, and comprehensive API gateway implementation.",
-      tags: ["Node.js", "Kubernetes", "GraphQL", "Redis", "AWS"],
+      title: "Natural Language Processing Pipeline",
+      description: "End-to-end NLP system for sentiment analysis and text classification. Processes thousands of documents with real-time insights and automated reporting.",
+      tags: ["Python", "NLTK", "spaCy", "TensorFlow", "MongoDB"],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=300&fit=crop",
       github: "https://github.com",
       demo: "https://demo.com"
     },
     {
-      title: "Data Pipeline Automation",
-      description: "ETL pipeline processing millions of records daily with automated data validation, transformation, and monitoring systems.",
-      tags: ["Python", "Apache Airflow", "Spark", "Kafka", "GCP"],
+      title: "Computer Vision Quality Control",
+      description: "Deep learning model for automated product quality inspection using CNN architecture. Achieved 99.2% accuracy in defect detection for manufacturing processes.",
+      tags: ["Python", "TensorFlow", "OpenCV", "Docker", "AWS"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
       github: "https://github.com",
       demo: "https://demo.com"
     },
     {
-      title: "Mobile-First Web Application",
-      description: "Progressive web app with offline capabilities, push notifications, and seamless cross-platform experience.",
-      tags: ["Next.js", "TypeScript", "PWA", "MongoDB", "Vercel"],
+      title: "Time Series Forecasting Dashboard",
+      description: "Interactive dashboard for sales forecasting using ARIMA and LSTM models. Provides real-time predictions with confidence intervals and trend analysis.",
+      tags: ["Python", "Streamlit", "Prophet", "PostgreSQL", "Plotly"],
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop",
       github: "https://github.com",
       demo: "https://demo.com"
@@ -47,7 +47,7 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work in software development and data science
+            A showcase of my recent work in data science, machine learning, and AI
           </p>
         </div>
 

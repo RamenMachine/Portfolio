@@ -6,18 +6,18 @@ export const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: "Full-Stack Development",
-      description: "Building scalable web applications with modern frameworks and best practices"
+      title: "Data Science & Analytics",
+      description: "Advanced statistical analysis and machine learning model development for predictive insights"
     },
     {
       icon: Database,
-      title: "Data Engineering",
-      description: "Designing robust data pipelines and optimizing database performance"
+      title: "AI & Machine Learning",
+      description: "Developing intelligent systems and deep learning models for complex problem solving"
     },
     {
       icon: Brain,
-      title: "Machine Learning",
-      description: "Implementing AI solutions and predictive models for business insights"
+      title: "Data Visualization",
+      description: "Creating compelling visual stories from complex datasets using modern visualization tools"
     },
     {
       icon: Rocket,
@@ -27,8 +27,8 @@ export const About = () => {
   ]
 
   const technologies = [
-    "JavaScript", "TypeScript", "Python", "React", "Node.js", "PostgreSQL",
-    "TensorFlow", "Docker", "AWS", "Kubernetes", "GraphQL", "Next.js"
+    "Python", "R", "SQL", "TensorFlow", "PyTorch", "Scikit-learn",
+    "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter", "Docker"
   ]
 
   return (
@@ -49,20 +49,19 @@ export const About = () => {
               <h3 className="text-2xl font-semibold text-foreground">My Story</h3>
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  With over 5 years of experience in software development and data science, 
-                  I specialize in creating innovative solutions that bridge the gap between 
-                  complex data and user-friendly applications.
+                  With over 4 years of experience in data science and artificial intelligence, 
+                  I specialize in transforming complex datasets into actionable business insights 
+                  through statistical analysis and machine learning.
                 </p>
                 <p>
-                  My journey began with a fascination for how technology can solve real-world 
-                  problems. Today, I work at the intersection of software engineering and data 
-                  science, building systems that not only perform well but also provide 
-                  meaningful insights.
+                  My journey began with a fascination for uncovering hidden patterns in data. 
+                  Today, I work at the intersection of statistics, machine learning, and business strategy, 
+                  building predictive models that drive data-driven decision making.
                 </p>
                 <p>
-                  I believe in continuous learning and staying ahead of the curve with 
-                  emerging technologies, always striving to deliver exceptional results 
-                  that exceed expectations.
+                  I believe in the power of data to solve real-world problems and am constantly 
+                  exploring cutting-edge techniques in deep learning and AI to deliver 
+                  innovative solutions that create meaningful impact.
                 </p>
               </div>
               

@@ -23,16 +23,16 @@ export const Hero = () => {
           <GlassCard variant="elevated" className="animate-fade-in">
             <div className="space-y-6">
               <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent animate-slide-up">
-                John Developer
+                Ameen Rahman
               </h1>
               
               <p className="text-xl md:text-2xl text-muted-foreground animate-slide-up [animation-delay:0.2s]">
-                Software Engineer & Data Scientist
+                Data Scientist & AI Engineer
               </p>
               
               <p className="text-lg text-foreground/80 max-w-2xl mx-auto leading-relaxed animate-slide-up [animation-delay:0.4s]">
-                Crafting innovative solutions with cutting-edge technology. 
-                Passionate about building scalable applications and extracting insights from data.
+                Transforming raw data into actionable insights through advanced analytics and machine learning. 
+                Passionate about uncovering patterns and building intelligent systems that drive business value.
               </p>
               
               <div className="flex flex-wrap gap-4 justify-center pt-6 animate-slide-up [animation-delay:0.6s]">

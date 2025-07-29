@@ -42,7 +42,7 @@ export const Navigation = () => {
             href="#" 
             className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            JD
+            AR
           </a>
 
           {/* Desktop Navigation */}
