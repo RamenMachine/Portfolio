@@ -49,13 +49,13 @@ export const Hero = () => {
               
               <div className="flex gap-6 justify-center pt-4 animate-slide-up [animation-delay:0.8s]">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/RamenMachine"
                   className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
                 >
                   <Github className="h-6 w-6" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/ameen-rahman-789947252/"
                   className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
                 >
                   <Linkedin className="h-6 w-6" />
